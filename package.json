@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "browserify": "browserify index.js -o browserify.js",
+    "webpack": "webpack"
   },
   "keywords": [],
   "author": "Simen Bekkhus <sbekkhus91@gmail.com>",
@@ -13,6 +14,7 @@
     "stylus": "^0.54.5"
   },
   "devDependencies": {
+    "browserify": "^14.4.0",
     "webpack": "^2.6.1"
   }
 }
