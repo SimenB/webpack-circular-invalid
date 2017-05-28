@@ -1,0 +1,18 @@
+{
+  "name": "webpack-circular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Simen Bekkhus <sbekkhus91@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "stylus": "^0.54.5"
+  },
+  "devDependencies": {
+    "webpack": "^2.6.1"
+  }
+}
